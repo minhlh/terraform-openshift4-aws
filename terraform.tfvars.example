@@ -1,20 +1,20 @@
-cluster_id = "ocp4-9n2nn"
-clustername = "ocp4"
+cluster_id = "simpleocp4-1m2ct"
+clustername = "simpleocp4"
 base_domain = "example.com"
 openshift_pull_secret = "./openshift_pull_secret.json"
 openshift_installer_url = "https://mirror.openshift.com/pub/openshift-v4/clients/ocp/latest"
 
 aws_access_key_id = "AAAA"
 aws_secret_access_key = "AbcDefGhiJkl"
-aws_ami = "ami-06f85a7940faa3217"
+aws_ami = "ami-07af688c8b65de56f"
 aws_extra_tags = {
-  "kubernetes.io/cluster/ocp4-9n2nn" = "owned",
+  "kubernetes.io/cluster/simpleocp4-1m2ct" = "owned",
   "owner" = "admin"
   }
 aws_azs = [
-  "us-east-1a",
-  "us-east-1b",
-  "us-east-1c"
+  "ap-southeast-1a",
+  "ap-southeast-1b",
+  "ap-southeast-1c"
   ]
-aws_region = "us-east-1"
+aws_region = "ap-southeast-1"
 aws_publish_strategy = "External"

@@ -33,9 +33,9 @@ variable "machine_cidr" {
 
   description = <<EOF
 The IP address space from which to assign machine IPs.
-Default "10.0.0.0/16"
+Default "10.70.0.0/16"
 EOF
-  default = "10.0.0.0/16"
+  default = "10.70.0.0/16"
 }
 
 variable "base_domain" {
